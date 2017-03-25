@@ -7,65 +7,91 @@
         <meta name="description" content="Homepage of Kaixiang Lin, a Ph.D. students at Michigan State University. This website provides his infomation." />
         <meta name="keywords" content="Kaixiang Lin" />
         <script src='javascripts/main.js'> </script>
-        <style>
-        </style>
+      <style type="text/css" media="screen">
+      body {
+        background-color: #f9f9f7;
+        margin: 0;
+        font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+      }
+
+      .container { margin: 50px auto 40px auto; width: 500px; text-align: left; }
+      .mycontainer { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+      a { color: #666666; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+
+      ul { list-style: none; margin: 25px 0; padding: 0; }
+      li { display: table-cell; font-weight: bold; width: 1%; }
+
+      .logo { display: inline-block; margin-top: 35px; }
+      .logo-img-2x { display: none; }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        .logo-img-1x { display: none; }
+        .logo-img-2x { display: inline-block; }
+      }
+
+      #suggestions {
+        margin-top: 35px;
+        color: #ccc;
+      }
+      #suggestions a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+
+    </style>
     </head>
 
 <body>
-  <div style="background-color:white; color:black; padding:20px;">
+  <div class="mycontainer">
               <h1>Kaixiang Lin</h1>
               <p>Second-year Ph.D. student, Advisor <a href="http://0xmachine.com/">Dr. Jiayu Zhou</a><br />
                  <a href="http://www.cse.msu.edu/">Department of Computer Science and Engineering</a><br />
                  <a href="http://msu.edu/">Michigan State University</a></br>
               </p>
-              <p>
+              <!-- <p>
                  B.E. from <a href="http://en.ustc.edu.cn/">University of Science and Technology of China</a><br />
-              </p>
+              </p> -->
               <p>
               <font size="3">
-              <a href="papers/cv.pdf">CV</a>,
-              <a href="https://github.com/KaixiangLin">[Github]</a> and <a href="https://scholar.google.com/citations?user=egq785sAAAAJ&hl=en">[Google Scholar]</a>
+              <a href="papers/cv.pdf">[CV]</a> &&
+              <a href="https://github.com/KaixiangLin">[Github]</a> && <a href="https://scholar.google.com/citations?user=egq785sAAAAJ&hl=en">[Google Scholar]</a>
               </font>
               </p>
   </div>
-  <div style="background-color:white; color:black; padding:20px;">
+  <div class="container">
     <h2> Selected Publications <h2>
     <font size="4.5">Collaborative Deep Reinforcement Learning</font></br>
-    <font size="3">Kaixiang Lin, Shu Wang and Jiayu Zhou</font></br>
-    <font size="3"><a href="https://128.84.21.199/abs/1702.05796">[Paper]</a> 
+    <font size="3">Kaixiang Lin, Shu Wang and Jiayu Zhou</font></br> 
+    <font size="2.5"><a href="http://icdm2016.eurecat.org/">2017 </a>  
+    <a href="https://128.84.21.199/abs/1702.05796">[Preprint]</a> 
     <a href="https://github.com/illidanlab/cdrl">[Code]</a> </font>  </br>
     </br>    
 
     <font size="4.5">Interactive Multi-Task Relationship Learning</font></br>
     <font size="3">Kaixiang Lin and Jiayu Zhou</font></br>
-    <font size="3"><a href="http://icdm2016.eurecat.org/">ICDM 2016</a>  
+    <font size="2.5"><a href="http://icdm2016.eurecat.org/">ICDM 2016</a>  
     <a href="papers/Interactive Multi-Task Relationship Learning.pdf">[Paper]</a> 
+    <a href="papers/iMTRL.pdf">[Slides]</a> 
     <a href="https://github.com/illidanlab/iMTL/tree/master/iMTRL">[Code]</a> </font>  </br>
     </br>
 
     <font size="4.5">Multi-Task Feature Interaction Learning</font></br>
     <font size="3">Kaixiang Lin, Jianpeng Xu, Inci M. Baytas, Shuiwang Ji and Jiayu Zhou</font></br>
-    <font size="3"><a href="http://www.kdd.org/kdd2016/">KDD 2016</a>
+    <font size="2.5"><a href="http://www.kdd.org/kdd2016/">KDD 2016</a>
      <a href="papers/2016KDD_MTIL20160924.pdf">[Paper]</a>
-     <a href="https://github.com/KaixiangLin/MTIL-example">[Code]</a> </font> </br>
-    <!-- </br> -->
-  <!--   <font size="4.5">Category-based dynamic recommendations adaptive to user interest drifts</font></br>
-    <font size="3">Kaixiang Lin and Dong Liu</font></br>
-    <font size="3"><a href="http://www.ic-wcsp.org/WCSP/WCSP2014/index.asp">WCSP 2014</a>
-      <a href="http://ieeexplore.ieee.org/document/6992143/?arnumber=6992143&tag=1">[Paper]</a>
-      <a href="https://github.com/KaixiangLin/Category-Based-Dynamic-Recommendations-Adaptive-to-User-Interest-Drift">[Code]</a> </font>
-    </br>
- -->
+     <a href="https://github.com/KaixiangLin/MTIL-example">[Code]</a> </font> </br> 
   </div>
-  <!--   <div style="background-color:white; color:black; padding:20px;">
-    <h2> More Information <h2>
-        <p>
-        <font size="3">
-        <a href="papers/cv.pdf">CV</a>,
-        <a href="https://github.com/KaixiangLin">[Github]</a> and <a href="https://scholar.google.com/citations?user=egq785sAAAAJ&hl=en">[Google Scholar]</a>
-        </font>
-        </p>
-  </div> -->
 
 
 
